@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Annotations</string>
+
+    <!--Fragmente List Annotation -->
+    <string name="list_name">Anotações</string>
+
+    <!--Fragment Annotation Create/Update/Delete-->
+    <string name="new_A_title">Nova anotação</string>
+    <string name="s_input_A_name">Name</string>
+    <string name="s_input_A_surname">Surname or E-mail</string>third note
+    <string name="s_input_A_note1">First note</string>
+    <string name="s_input_A_note2">Second note</string>
+    <string name="s_input_A_note3">Third note</string>
+
+
+    <string name="s_btn_A_create">Adicionar</string>
+    <string name="s_msg_create_sucess">Anotação cadastrada com sucesso !</string>
+    <string name="s_msg_create_error">Não foi possível cadastrar a anotação.</string>
+
+    <string name="s_btn_A_update">Atualizar</string>
+    <string name="s_msg_update_sucess">Alteração realizada com sucesso !</string>
+    <string name="s_msg_update_error">Não foi possível realizar a atualização da anotação.</string>
+
+    <string name="s_btn_A_delete">Deletar</string>
+    <string name="s_msg_delete_sucess">Anotação deletada com sucesso !</string>
+    <string name="s_msg_delete_error">Não foi possível remover a anotação.</string>
+</resources>

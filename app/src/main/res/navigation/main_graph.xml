@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_graph"
+    app:startDestination="@id/annotationListFragment">
+
+    <fragment
+        android:id="@+id/annotationListFragment"
+        android:name="com.example.annotations.ui.annotationList.AnnotationListFragment"
+        android:label="@string/list_name"
+        tools:layout="@layout/fragment_annotation_list" >
+        <action
+            android:id="@+id/action_annotationListFragment_to_annotationFragment"
+            app:destination="@id/annotationFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/annotationFragment"
+        android:name="com.example.annotations.ui.annotation.AnnotationFragment"
+        android:label="@string/new_A_title"
+        tools:layout="@layout/fragment_annotation" >
+        <argument
+            android:name="annotationEntity"
+            app:argType="com.example.annotations.data.db.entity.AnnotationEntity"
+            app:nullable="true" />
+    </fragment>
+</navigation>
